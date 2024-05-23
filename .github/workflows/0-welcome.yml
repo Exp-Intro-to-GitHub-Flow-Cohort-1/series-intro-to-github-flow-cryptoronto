@@ -23,7 +23,7 @@ jobs:
   get_pulled:
     runs-on: ubuntu-latest
     steps:
-      - run: git pull
+      - run: git init | git pull
   
   get_current_step:
     name: Check current step number
